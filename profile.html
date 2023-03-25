@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--jQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <!--Popper JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>Profile Page</h2>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">User Details</h4>
+                <p class="card-text">
+                    <b>Username:</b> <span id="username">JohnDoe</span><br>
+                    <b>Email:</b> <span id="email">johndoe@gmail.com</span><br>
+                    <b>Date of Birth:</b> <span id="dob">01/01/1990</span><br>
+                    <b>Address:</b> <span id="address">123 Main St, Anytown USA</span><br>
+                    <b>Mobile Number:</b> <span id="mobile">(555) 555-1234</span><br>
+                </p>
+                <button type="button" class="btn btn-primary" id="editProfile">Edit Profile</button>
+                <button type="button" class="btn btn-danger" id="logout">Logout</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/profile.js"></script>
+</body>
+</html>

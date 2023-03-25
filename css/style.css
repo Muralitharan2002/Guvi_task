@@ -1,0 +1,49 @@
+  body, html {
+    height: 100%;
+  }
+  
+  /* Add a background image */
+  .bg-image {
+    background-image: url("../assets/home.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .btn{
+    background-color: transparent;
+    border-color: #fff;
+    transition: 1s;
+  }
+
+  .btn:hover{
+    background-color: transparent;
+    border-color: #fff;
+    transform: scale(1);
+    transition: 1s;
+    
+  }
+  
+  /* Center content vertically */
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    transition: 1s;
+  }
+  
+  /* Add some text styling */
+  .text-white {
+    color:#fff;
+    
+  }
+  
+  /* Add animation class for text */
+  .animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  /* Add animation class for button */
+  
